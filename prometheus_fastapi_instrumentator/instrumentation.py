@@ -77,6 +77,7 @@ class PrometheusFastApiInstrumentator:
                 part of the inprogress label? Ignored unless
                 `should_instrument_requests_inprogress` is `True`. Defaults to `False`.
         """
+        # foo bar baz
 
         self.should_group_status_codes = should_group_status_codes
         self.should_ignore_untemplated = should_ignore_untemplated
